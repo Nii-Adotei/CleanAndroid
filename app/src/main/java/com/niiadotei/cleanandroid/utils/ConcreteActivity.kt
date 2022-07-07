@@ -18,7 +18,6 @@ class ConcreteActivity: ComponentActivity() {
     }
 }
 
-
 @Composable
 fun Screen(concreteViewModel: ConcreteViewModel = viewModel()) {
     concreteViewModel.loadConcreteData()
